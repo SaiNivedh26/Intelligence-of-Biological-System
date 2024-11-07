@@ -78,7 +78,7 @@ def fetch_pdb_from_api(sequence):
     invoke_url = "https://health.api.nvidia.com/v1/biology/nvidia/esmfold"
     
     headers = {
-        "Authorization": "Bearer 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",  
+        "Authorization": "Bearer API_Key",  
         "Accept": "application/json",
     }
 
